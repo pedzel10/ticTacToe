@@ -1,1 +1,70 @@
-/* No CSS *//*# sourceMappingURL=style.min.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #1bdfce;
+}
+
+body .board {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60vh;
+  height: 60vh;
+}
+
+body .board .board__block {
+  width: 20vh;
+  height: 20vh;
+  background-color: #3db8ad;
+  border: 2px solid #1bdfce;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+body .result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0;
+  width: 60vh;
+  font-size: 30px;
+  font-family: lato;
+  color: #004855;
+}
+
+body .play-again {
+  width: 60vh;
+  margin-top: 10px;
+  padding: 10px 0;
+  font-size: 30px;
+  text-align: center;
+  font-family: lato;
+  color: #1bdfce;
+  cursor: pointer;
+  border-radius: 35px;
+  background-color: #004855;
+}
+/*# sourceMappingURL=style.min.css.map */
