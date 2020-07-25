@@ -5,28 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic tac toe</title>
-
+    <script src="https://kit.fontawesome.com/d078e3e1b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
     <section class="result">
-        <div class="result__cross">0</div>
-        <div class="result__tie">0</div>
-        <div class="result__circle">0</div>
+        <div class="result__cross">X - 0</div>
+        <div class="result__tie">TIE - 0</div>
+        <div class="result__circle">O - 0</div>
     </section>
     <main class="board">
-        <div class="board__block"></div>
-        <div class="board__block"></div>
-        <div class="board__block"></div>
-        <div class="board__block"></div>
-        <div class="board__block"></div>
-        <div class="board__block"></div>
-        <div class="board__block"></div>
-        <div class="board__block"></div>
-        <div class="board__block"></div>
+        <div class="board__block" data-X="0" data-Y="0"></div>
+        <div class="board__block" data-X="1" data-Y="0"></div>
+        <div class="board__block" data-X="2" data-Y="0"></div>
+        <div class="board__block" data-X="0" data-Y="1"></div>
+        <div class="board__block" data-X="1" data-Y="1"></div>
+        <div class="board__block" data-X="2" data-Y="1"></div>
+        <div class="board__block" data-X="0" data-Y="2"></div>
+        <div class="board__block" data-X="1" data-Y="2"></div>
+        <div class="board__block" data-X="2" data-Y="2"></div>
     </main>
     <div class="play-again">Play again!</div>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
