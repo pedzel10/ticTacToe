@@ -19,6 +19,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
   height: 100vh;
   background-color: #1bdfce;
 }
@@ -50,6 +51,7 @@ body .board .board__block {
   border-radius: 20px;
   cursor: pointer;
   font-size: 100px;
+  color: #004855;
 }
 
 body .result {
@@ -76,5 +78,34 @@ body .play-again {
   cursor: pointer;
   border-radius: 35px;
   background-color: #004855;
+}
+
+@media (orientation: portrait) and (max-width: 700px) {
+  body .board {
+    width: 30vh;
+    height: 30vh;
+  }
+  body .board .board__block {
+    width: 10vh;
+    height: 10vh;
+    font-size: 40px;
+  }
+  body .result {
+    width: 30vh;
+    font-size: 15px;
+  }
+  body .play-again {
+    width: 30vh;
+    font-size: 20px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1020px) {
+  body .result {
+    font-size: 15px;
+  }
+  body .play-again {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=style.min.css.map */
