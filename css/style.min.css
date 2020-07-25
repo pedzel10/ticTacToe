@@ -34,12 +34,22 @@ body .board {
 }
 
 body .board .board__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 20vh;
   height: 20vh;
   background-color: #3db8ad;
   border: 2px solid #1bdfce;
   border-radius: 20px;
   cursor: pointer;
+  font-size: 100px;
 }
 
 body .result {

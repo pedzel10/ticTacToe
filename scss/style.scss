@@ -21,12 +21,18 @@ body {
 
 
         .board__block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             width: 20vh;
             height: 20vh;
             background-color: rgb(61, 184, 173);
             border: 2px solid rgb(27, 223, 206);
             border-radius: 20px;
             cursor: pointer;
+
+            font-size: 100px;
 
         }
     }
